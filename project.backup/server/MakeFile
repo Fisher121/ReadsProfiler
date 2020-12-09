@@ -1,0 +1,4 @@
+all:
+	g++ server.cpp serverClass.cpp -lsqlite3 -o server.exe
+clean:
+	rm -f *~server.exe

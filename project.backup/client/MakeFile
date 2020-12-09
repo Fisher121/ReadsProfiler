@@ -1,0 +1,4 @@
+all:
+	g++ mainClient.cpp client.cpp -o client.exe
+clean:
+	rm -f *~client-exe
